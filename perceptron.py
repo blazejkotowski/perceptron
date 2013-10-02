@@ -203,5 +203,5 @@ if __name__ == '__main__':
 
     print "For {0} known data points".format(n)
     print "\tAveragely it takes {0} iterations to find function".format(sum(iterations)/float(len(iterations)))
-    print "\tAverage mistake probability is equal to {0}\n".format(sum(probabilities)/float(len(probabilities)))
+    print "\tAverage mistake probability is equal to {0}\n\tMax mistake: {1}\n".format(sum(probabilities)/float(len(probabilities)),max(probabilities))
 

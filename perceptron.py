@@ -99,7 +99,7 @@ class Perceptron(object):
     if random_weights:
       self.weights = []
       random.seed()
-      for i in range(d):
+      for i in range(d+1):
         self.weights.append(random.uniform(-1,1))
 
   def learn(self, data):
